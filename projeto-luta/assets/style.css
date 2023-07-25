@@ -1,0 +1,41 @@
+.fightarea {
+    display: flex;
+    gap: 20px;
+}
+
+#char,
+#monster {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.attackButton {
+    width: 50%;
+    margin: auto;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: #f00;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+}
